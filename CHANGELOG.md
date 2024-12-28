@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/shimorojune/portfolio/compare/v1.0.0...v1.0.1) (2024-12-28)
+
+
+### Bug Fixes
+
+* update workflow name and modify layout title for clarity ([66c1914](https://github.com/shimorojune/portfolio/commit/66c1914e915f07e81478080c41b65152306dc37a))
+
 # 1.0.0 (2024-12-28)
 
 
