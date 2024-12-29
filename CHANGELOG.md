@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/shimorojune/portfolio/compare/v1.0.1...v1.1.0) (2024-12-29)
+
+
+### Features
+
+* add counter script for analytics tracking ([d72205a](https://github.com/shimorojune/portfolio/commit/d72205ae3c86ef69289e3812369c6e3ed7b76f43))
+* add NavBar component and email icon; remove unused SVG assets ([ff9a880](https://github.com/shimorojune/portfolio/commit/ff9a880a3bb7d8dc6b3d560695643fb0e6f7b69e))
+
 ## [1.0.1](https://github.com/shimorojune/portfolio/compare/v1.0.0...v1.0.1) (2024-12-28)
 
 
