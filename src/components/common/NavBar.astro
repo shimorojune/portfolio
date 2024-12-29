@@ -1,0 +1,36 @@
+---
+import emailIcon from "../../assets/email.svg";
+---
+
+<nav class="bg-transparent fixed w-full z-20 top-0 left-0">
+  <div
+    class="max-w-screen-xl flex items-center justify-between mx-auto py-6 px-3 xl:px-0 border-b"
+  >
+    <a href="mailto:hello@rraj.dev" class="flex items-center gap-3 h-5">
+      <img class="hidden md:block" src={emailIcon.src} alt="Email Icon" />
+      <span class="text-lg font-semibold whitespace-nowrap leading-none"
+        >hello@rraj.dev</span
+      >
+    </a>
+    <ol class="inline-flex items-center gap-1">
+      <li class="inline-flex items-center">
+        <a
+          href="https://www.linkedin.com/in/rohitrajnovember"
+          target="_blank"
+          class="inline-flex items-center text-md font-medium leading-none"
+        >
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <div class="flex items-center">
+          <a
+            href="https://github.com/shimorojune"
+            target="_blank"
+            class="ms-1 text-md font-medium leading-none">Github</a
+          >
+        </div>
+      </li>
+    </ol>
+  </div>
+</nav>
