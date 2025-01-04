@@ -1,0 +1,18 @@
+---
+import { Image } from "astro:assets";
+import sellerSpotLogo from "../../assets/sellerspot.png";
+import ramcoLogo from "../../assets/ramco.png";
+import egainLogo from "../../assets/egain.png";
+---
+
+<div
+  class="mt-14 w-full standard-width h-32 p-4 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600 rounded-md"
+>
+  <div class="w-full h-full flex items-center justify-around">
+    <div><Image src={sellerSpotLogo} alt="SellerSpot" height={40} /></div>
+    <div><Image src={ramcoLogo} alt="Ramco" height={35} /></div>
+    <div class="dark:invert">
+      <Image src={egainLogo} alt="Ramco" height={35} />
+    </div>
+  </div>
+</div>
