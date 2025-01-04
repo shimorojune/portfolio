@@ -1,10 +1,18 @@
+---
+import Badge from "../common/Badge.astro";
+---
+
 <div class="w-full h-fit flex flex-col gap-2 standard-width standard-x-padding">
-  <h1
-    class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl"
-  >
+  <h1 class="mb-1 text-6xl font-extrabold leading-none tracking-tight">
     Rohit Raj
   </h1>
   <p class="text-lg font-normal lg:text-xl">
-    Solving real-world problems, with code.
+    Solving real-world problems with code.
   </p>
+  <div class="inline-flex gap-1 mt-2 flex-wrap">
+    <Badge label="Typescript" />
+    <Badge label="HTML & CSS" />
+    <Badge label="ReactJS" />
+    <Badge label="NodeJS" />
+  </div>
 </div>
