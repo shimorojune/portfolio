@@ -10,6 +10,9 @@ export default {
         ".standard-width": {
           "@apply max-w-screen-xl mx-auto": {},
         },
+        ".standard-x-padding": {
+          "@apply px-3": {},
+        },
       });
     },
   ],
